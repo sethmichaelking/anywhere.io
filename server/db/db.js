@@ -7,8 +7,8 @@ const db = new Sequelize(process.env.REACT_DATABASE_NAME, process.env.REACT_DATA
     logging: false
   })
 
-db.authenticate()
-  .then(()=> console.log('Connected to chrome extension database...'))
-  .catch(err => console.log(err))
+// db.authenticate()
+//   .then(()=> console.log('Connected to chrome extension database...'))
+//   .catch(err => console.log(err))
 
 module.exports = db

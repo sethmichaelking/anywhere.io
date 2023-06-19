@@ -24,4 +24,4 @@ const Posts = db.define('post', {
   }
 })
 
-module.exports = Headline
+module.exports = Posts
